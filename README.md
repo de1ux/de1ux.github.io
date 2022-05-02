@@ -1,2 +1,6 @@
 # de1ux.github.io
-My portfolio website!
+
+This is my portfolio website!
+
+And it was made with love
+
