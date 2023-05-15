@@ -2,6 +2,10 @@ body {
 	background-color: #01161e;
 }
 
+.media {
+	background-color: #598392;
+}
+
 @keyframes fadein {
 	from {
 		opacity: 0;
