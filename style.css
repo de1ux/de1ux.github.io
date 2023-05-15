@@ -1,0 +1,125 @@
+body {
+	background-color: #01161e;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#intro {
+	color: white;
+	height: 100vh;
+}
+
+#intro h1 {
+	font-size: 96px;
+	animation: fadein ease-in 1s;
+}
+
+#intro h3 {
+	opacity: 0;
+	animation-name: fadein;
+	animation-delay: 1s;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+#intro code {
+	font-size: 1.75rem;
+}
+
+#arrowDown {
+	color: lightblue;
+	font-size: 75px;
+	position: absolute;
+	bottom: 30px;
+	left: calc(50% - 37.5px);
+}
+
+#about {
+	color: white;
+	background: #124559;
+	padding: 30px;
+}
+
+#contact {
+	background: #598392;
+	color: white;
+	padding: 30px;
+}
+
+#contact a {
+	color: white;
+}
+
+#email {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+form input,
+form textarea {
+	width: 100%;
+	padding: 10px;
+}
+
+form .btn-primary {
+	width: 100%;
+	margin-top: 15px;
+	background-color: #124559;
+}
+
+#portfolio {
+	background-color: #d5e4f5;
+	padding: 30px;
+}
+
+.navbar {
+	background-color: #598392 !important;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 30px;
+}
+
+section {
+	box-shadow: -10px 0 25px #01161e;
+	/* border-bottom: 2px solid darkblue; */
+}
+
+@media only screen and (max-width: 775px) {
+	#intro h1 {
+		font-size: 50px;
+	}
+	#intro h3 {
+		font-size: 1.5rem;
+	}
+}
+
+main {
+	background: #124559;
+	color: white;
+	padding: 30px;
+}
+
+main img {
+	border-radius: 10px;
+}
+
+.bg-secondary {
+	background-color: black !important;
+}
+
+.stack {
+	padding: 5px;
+	background-color: black;
+	border-radius: 5px;
+	font-weight: bold;
+}
